@@ -5,13 +5,7 @@ Topic-Audio-based Anomaly Classifier
 #### The main goal of this project is to detect anomalies in a given audio 
 
 ## ***Steps for preprocessing of the audios***
-####  Step             What It Does                            Tool Used                                 
-
-Load audio files   Picks audio from RAVDESS             `glob`, `librosa.load`,`IPython.display`  
-Trim silence       Removes quiet parts                    `librosa.effects.trim`                   
-Plot waveform    Shows amplitude over time               `pandas`, `matplotlib`, `seaborn`         
-Spectrogram      Shows how frequencies change over time  `librosa.stft`, `librosa.display`        
-Mel-spectrogram   Human-like frequency perception          `librosa.feature.melspectrogram`    
+ 
 
 | Step             | What It Does                           | Tool Used                                 |
 | ---------------- | -------------------------------------- | ----------------------------------------- |
